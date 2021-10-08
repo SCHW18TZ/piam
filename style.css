@@ -119,6 +119,11 @@ span{
   text-align:center ;
 }
 
+
+.about-text p{
+  text-align:center;
+}
+
 #about img{
   height: 200px;
   width: 200px;
@@ -285,6 +290,11 @@ span{
 
   #about{
     text-align: center;
+  }
+
+  .about-text p {
+    margin:30px;
+    transform:translateX(-50%,-50%);
   }
 
   .about-img {
