@@ -1,3 +1,5 @@
+// What's app contact  
+
 var frm = document.querySelector('#contact')
 frm.addEventListener("submit", (err) => {
     // Prevents from refresh

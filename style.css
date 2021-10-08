@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+/* Scrollbar -- start */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(229, 21, 63);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(229, 1, 1);
+}
+
+/* Scrollbar -- end */
+
+
 /* Navbar Start */
 
 
@@ -218,3 +242,60 @@ span{
 }
 
 /* Contact End */
+
+@media only screen and (max-width: 600px) {
+  #trainers{
+    height: 200vh;
+  }
+  .card{
+    margin-top: 30px;
+  }
+  .about-img{
+    display: flex;
+    transform:translate(-50% -50%) ;
+    /* justify-content: center;
+    align-items: center; */
+    margin: 200px 100px;
+  }
+  .about-img img{
+    width: 150px;
+    height: 150px;
+  }
+
+  #about {
+    padding-top:100px;
+    text-align: center;
+  }
+
+  .cards img{
+    height: 190px;
+  }
+
+  .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+    flex-direction: row;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+  #about{
+    text-align: center;
+  }
+
+  .about-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform:translate(-50% -50%) ;
+    margin: 200px 100px;
+
+  }
+  
+}
+
+/* Media Querry */
