@@ -54,6 +54,7 @@
   /* particles-js Start */
 
 #particles-js{
+
   background-color: rgb(63, 62, 62);
   height: 100vh;
   color:white;
@@ -71,7 +72,9 @@
 
 .particles-js-text h1{
   font-size: 2.5rem;
+  text-transform: uppercase;
 }
+
 
 .particles-js-text button{
   display: inline-block;
@@ -160,6 +163,39 @@ span{
   margin:0 30px; 
 }
 /* Trainers End */
+
+/* Courses start */
+
+#courses{  
+  height: 120vh;
+  text-align: center;
+  background-color: rgb(153,168,147);    
+}
+
+#courses h1 {
+  padding: 90px 0 ;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+  flex-direction: row;
+}
+
+.card-img-top{
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.card{
+  margin:0 30px; 
+}
+
+/* Courses End */
+
+
 
 /* Contact start */
 .contact {
@@ -270,6 +306,10 @@ span{
   #about {
     padding-top:100px;
     text-align: center;
+  }
+
+  #courses{
+    height: 300vh;
   }
 
   .cards img{
